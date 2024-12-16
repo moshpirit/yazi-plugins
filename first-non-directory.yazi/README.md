@@ -21,6 +21,6 @@ Add this to your `keymap.toml` to set the keymap for the plugin:
 ```toml
 [[manager.prepend_keymap]]
 on   = [ "f", "j" ]
-run  = "plugin --sync first-non-directory"
+run  = "plugin first-non-directory"
 desc = "Jumps to the first file"
 ```
